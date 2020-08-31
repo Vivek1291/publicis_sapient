@@ -1,0 +1,49 @@
+@import './variables';
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: $grey1;
+    font-family: $fontFamily;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+.center {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-verical-algin {
+    align-items: center;
+}
+.flex-horizontal-align {
+    justify-content: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.red-color {
+    color: $redColor;
+    font-size: 24px;
+}
